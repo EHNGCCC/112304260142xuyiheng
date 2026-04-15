@@ -1,0 +1,21 @@
+{
+  "metric_priority": "roc_auc",
+  "results": {
+    "logistic_regression": {
+      "auc": 0.9478777599999999,
+      "accuracy": 0.8788,
+      "f1": 0.8797619047619047
+    },
+    "svm_rbf": {
+      "auc": 0.95505952,
+      "accuracy": 0.8914,
+      "f1": 0.8922405239134749
+    },
+    "random_forest": {
+      "auc": 0.9237553599999999,
+      "accuracy": 0.846,
+      "f1": 0.8516377649325626
+    }
+  },
+  "best_model": "svm_rbf"
+}

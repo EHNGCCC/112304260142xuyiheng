@@ -1,0 +1,227 @@
+{
+  "metric_priority": "roc_auc",
+  "teacher_validation_auc": 0.9733100800000001,
+  "best_validation_auc": 0.9733264000000001,
+  "best_pseudo_frac": 0.005,
+  "best_alpha": 1.0,
+  "best_pseudo_count": 60,
+  "search_log": [
+    {
+      "pseudo_frac": 0.005,
+      "alpha": 0.2,
+      "pseudo_count": 60,
+      "validation_auc": 0.9733124799999998
+    },
+    {
+      "pseudo_frac": 0.005,
+      "alpha": 0.35,
+      "pseudo_count": 60,
+      "validation_auc": 0.9733200799999999
+    },
+    {
+      "pseudo_frac": 0.005,
+      "alpha": 0.5,
+      "pseudo_count": 60,
+      "validation_auc": 0.9733175199999999
+    },
+    {
+      "pseudo_frac": 0.005,
+      "alpha": 0.65,
+      "pseudo_count": 60,
+      "validation_auc": 0.97331712
+    },
+    {
+      "pseudo_frac": 0.005,
+      "alpha": 0.8,
+      "pseudo_count": 60,
+      "validation_auc": 0.97332328
+    },
+    {
+      "pseudo_frac": 0.005,
+      "alpha": 1.0,
+      "pseudo_count": 60,
+      "validation_auc": 0.9733264000000001
+    },
+    {
+      "pseudo_frac": 0.01,
+      "alpha": 0.2,
+      "pseudo_count": 170,
+      "validation_auc": 0.9733028
+    },
+    {
+      "pseudo_frac": 0.01,
+      "alpha": 0.35,
+      "pseudo_count": 170,
+      "validation_auc": 0.9732928
+    },
+    {
+      "pseudo_frac": 0.01,
+      "alpha": 0.5,
+      "pseudo_count": 170,
+      "validation_auc": 0.973284
+    },
+    {
+      "pseudo_frac": 0.01,
+      "alpha": 0.65,
+      "pseudo_count": 170,
+      "validation_auc": 0.9732760000000001
+    },
+    {
+      "pseudo_frac": 0.01,
+      "alpha": 0.8,
+      "pseudo_count": 170,
+      "validation_auc": 0.97326664
+    },
+    {
+      "pseudo_frac": 0.01,
+      "alpha": 1.0,
+      "pseudo_count": 170,
+      "validation_auc": 0.9732556800000001
+    },
+    {
+      "pseudo_frac": 0.02,
+      "alpha": 0.2,
+      "pseudo_count": 471,
+      "validation_auc": 0.9733056000000001
+    },
+    {
+      "pseudo_frac": 0.02,
+      "alpha": 0.35,
+      "pseudo_count": 471,
+      "validation_auc": 0.97330096
+    },
+    {
+      "pseudo_frac": 0.02,
+      "alpha": 0.5,
+      "pseudo_count": 471,
+      "validation_auc": 0.9732960000000002
+    },
+    {
+      "pseudo_frac": 0.02,
+      "alpha": 0.65,
+      "pseudo_count": 471,
+      "validation_auc": 0.9732832000000001
+    },
+    {
+      "pseudo_frac": 0.02,
+      "alpha": 0.8,
+      "pseudo_count": 471,
+      "validation_auc": 0.97328024
+    },
+    {
+      "pseudo_frac": 0.02,
+      "alpha": 1.0,
+      "pseudo_count": 471,
+      "validation_auc": 0.973268
+    },
+    {
+      "pseudo_frac": 0.03,
+      "alpha": 0.2,
+      "pseudo_count": 811,
+      "validation_auc": 0.9733225600000001
+    },
+    {
+      "pseudo_frac": 0.03,
+      "alpha": 0.35,
+      "pseudo_count": 811,
+      "validation_auc": 0.9733225599999998
+    },
+    {
+      "pseudo_frac": 0.03,
+      "alpha": 0.5,
+      "pseudo_count": 811,
+      "validation_auc": 0.9733172
+    },
+    {
+      "pseudo_frac": 0.03,
+      "alpha": 0.65,
+      "pseudo_count": 811,
+      "validation_auc": 0.9733137599999999
+    },
+    {
+      "pseudo_frac": 0.03,
+      "alpha": 0.8,
+      "pseudo_count": 811,
+      "validation_auc": 0.9733057599999999
+    },
+    {
+      "pseudo_frac": 0.03,
+      "alpha": 1.0,
+      "pseudo_count": 811,
+      "validation_auc": 0.97330264
+    },
+    {
+      "pseudo_frac": 0.05,
+      "alpha": 0.2,
+      "pseudo_count": 1638,
+      "validation_auc": 0.97330168
+    },
+    {
+      "pseudo_frac": 0.05,
+      "alpha": 0.35,
+      "pseudo_count": 1638,
+      "validation_auc": 0.973282
+    },
+    {
+      "pseudo_frac": 0.05,
+      "alpha": 0.5,
+      "pseudo_count": 1638,
+      "validation_auc": 0.9732678400000001
+    },
+    {
+      "pseudo_frac": 0.05,
+      "alpha": 0.65,
+      "pseudo_count": 1638,
+      "validation_auc": 0.9732380800000001
+    },
+    {
+      "pseudo_frac": 0.05,
+      "alpha": 0.8,
+      "pseudo_count": 1638,
+      "validation_auc": 0.973226
+    },
+    {
+      "pseudo_frac": 0.05,
+      "alpha": 1.0,
+      "pseudo_count": 1638,
+      "validation_auc": 0.97319064
+    },
+    {
+      "pseudo_frac": 0.08,
+      "alpha": 0.2,
+      "pseudo_count": 3095,
+      "validation_auc": 0.97328952
+    },
+    {
+      "pseudo_frac": 0.08,
+      "alpha": 0.35,
+      "pseudo_count": 3095,
+      "validation_auc": 0.9732543200000001
+    },
+    {
+      "pseudo_frac": 0.08,
+      "alpha": 0.5,
+      "pseudo_count": 3095,
+      "validation_auc": 0.9732113600000001
+    },
+    {
+      "pseudo_frac": 0.08,
+      "alpha": 0.65,
+      "pseudo_count": 3095,
+      "validation_auc": 0.9731712
+    },
+    {
+      "pseudo_frac": 0.08,
+      "alpha": 0.8,
+      "pseudo_count": 3095,
+      "validation_auc": 0.97313392
+    },
+    {
+      "pseudo_frac": 0.08,
+      "alpha": 1.0,
+      "pseudo_count": 3095,
+      "validation_auc": 0.97307984
+    }
+  ],
+  "submission_path": "E:\\machining learning\\competition\\kaggle1\\formal\\submissions\\submission_pseudolabel_rank_blend_auc.csv"
+}

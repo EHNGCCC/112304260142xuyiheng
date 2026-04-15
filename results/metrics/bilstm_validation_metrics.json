@@ -1,0 +1,8 @@
+{
+  "metric_priority": "roc_auc",
+  "results": {
+    "auc": 0.9580545599999998,
+    "accuracy": 0.881,
+    "f1": 0.8886393411940857
+  }
+}

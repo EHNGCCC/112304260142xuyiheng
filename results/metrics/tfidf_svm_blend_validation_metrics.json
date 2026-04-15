@@ -1,0 +1,31 @@
+{
+  "metric_priority": "roc_auc",
+  "model": "word_tfidf_linear_svc + char_tfidf_linear_svc",
+  "weights": {
+    "word_svc": 0.8,
+    "char_svc": 0.2
+  },
+  "word_config": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_df": 0.98,
+    "max_features": 200000,
+    "C": 0.6
+  },
+  "char_config": {
+    "ngram_range": [
+      3,
+      5
+    ],
+    "analyzer": "char_wb",
+    "min_df": 2,
+    "max_df": 0.99,
+    "max_features": 200000,
+    "C": 0.4
+  },
+  "validation_auc": 0.9698207999999999,
+  "submission_path": "E:\\machining learning\\competition\\kaggle1\\formal\\submissions\\submission_tfidf_svm_blend_auc.csv"
+}

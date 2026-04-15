@@ -1,0 +1,18 @@
+{
+  "metric_priority": "roc_auc",
+  "model_family": "sparse_text_rank_blend",
+  "validation_auc": 0.9733196000000001,
+  "component_validation_auc": {
+    "word_clean_linsvc": 0.96914304,
+    "word_soft_linsvc": 0.9693972799999999,
+    "nbsvm_word_soft": 0.9679660800000001,
+    "nbsvm_char_soft": 0.9545815999999999
+  },
+  "weights": {
+    "word_clean_linsvc": 0.25,
+    "word_soft_linsvc": 0.23,
+    "nbsvm_word_soft": 0.31,
+    "nbsvm_char_soft": 0.21
+  },
+  "submission_path": "E:\\machining learning\\competition\\kaggle1\\formal\\submissions\\submission_sparse_rank_blend_auc.csv"
+}

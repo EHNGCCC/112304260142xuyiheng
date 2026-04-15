@@ -1,0 +1,218 @@
+{
+  "metric_priority": "roc_auc",
+  "best_bilstm_weight": 0.6000000000000001,
+  "best_classical_weight": 0.3999999999999999,
+  "best_validation_metrics": {
+    "auc": 0.96317824,
+    "accuracy": 0.8934,
+    "f1": 0.8973222885763822
+  },
+  "classical_model": "svm_rbf",
+  "search_history": [
+    {
+      "bilstm_weight": 0.0,
+      "classical_weight": 1.0,
+      "auc": 0.95505952
+    },
+    {
+      "bilstm_weight": 0.025,
+      "classical_weight": 0.975,
+      "auc": 0.95578352
+    },
+    {
+      "bilstm_weight": 0.05,
+      "classical_weight": 0.95,
+      "auc": 0.9564395200000001
+    },
+    {
+      "bilstm_weight": 0.07500000000000001,
+      "classical_weight": 0.925,
+      "auc": 0.9570550400000001
+    },
+    {
+      "bilstm_weight": 0.1,
+      "classical_weight": 0.9,
+      "auc": 0.9576241600000001
+    },
+    {
+      "bilstm_weight": 0.125,
+      "classical_weight": 0.875,
+      "auc": 0.9581452800000001
+    },
+    {
+      "bilstm_weight": 0.15000000000000002,
+      "classical_weight": 0.85,
+      "auc": 0.9586702399999999
+    },
+    {
+      "bilstm_weight": 0.17500000000000002,
+      "classical_weight": 0.825,
+      "auc": 0.9591448
+    },
+    {
+      "bilstm_weight": 0.2,
+      "classical_weight": 0.8,
+      "auc": 0.9595854399999999
+    },
+    {
+      "bilstm_weight": 0.225,
+      "classical_weight": 0.775,
+      "auc": 0.9599815999999999
+    },
+    {
+      "bilstm_weight": 0.25,
+      "classical_weight": 0.75,
+      "auc": 0.9603630399999998
+    },
+    {
+      "bilstm_weight": 0.275,
+      "classical_weight": 0.725,
+      "auc": 0.9607272
+    },
+    {
+      "bilstm_weight": 0.30000000000000004,
+      "classical_weight": 0.7,
+      "auc": 0.9610635200000001
+    },
+    {
+      "bilstm_weight": 0.325,
+      "classical_weight": 0.675,
+      "auc": 0.96138816
+    },
+    {
+      "bilstm_weight": 0.35000000000000003,
+      "classical_weight": 0.6499999999999999,
+      "auc": 0.9616638399999999
+    },
+    {
+      "bilstm_weight": 0.375,
+      "classical_weight": 0.625,
+      "auc": 0.961932
+    },
+    {
+      "bilstm_weight": 0.4,
+      "classical_weight": 0.6,
+      "auc": 0.9621705599999999
+    },
+    {
+      "bilstm_weight": 0.42500000000000004,
+      "classical_weight": 0.575,
+      "auc": 0.9624067199999999
+    },
+    {
+      "bilstm_weight": 0.45,
+      "classical_weight": 0.55,
+      "auc": 0.96259664
+    },
+    {
+      "bilstm_weight": 0.47500000000000003,
+      "classical_weight": 0.5249999999999999,
+      "auc": 0.96276768
+    },
+    {
+      "bilstm_weight": 0.5,
+      "classical_weight": 0.5,
+      "auc": 0.9629048
+    },
+    {
+      "bilstm_weight": 0.525,
+      "classical_weight": 0.475,
+      "auc": 0.9630143999999998
+    },
+    {
+      "bilstm_weight": 0.55,
+      "classical_weight": 0.44999999999999996,
+      "auc": 0.9631048
+    },
+    {
+      "bilstm_weight": 0.5750000000000001,
+      "classical_weight": 0.42499999999999993,
+      "auc": 0.9631488000000001
+    },
+    {
+      "bilstm_weight": 0.6000000000000001,
+      "classical_weight": 0.3999999999999999,
+      "auc": 0.96317824
+    },
+    {
+      "bilstm_weight": 0.625,
+      "classical_weight": 0.375,
+      "auc": 0.9631732800000001
+    },
+    {
+      "bilstm_weight": 0.65,
+      "classical_weight": 0.35,
+      "auc": 0.96312624
+    },
+    {
+      "bilstm_weight": 0.675,
+      "classical_weight": 0.32499999999999996,
+      "auc": 0.9630619199999999
+    },
+    {
+      "bilstm_weight": 0.7000000000000001,
+      "classical_weight": 0.29999999999999993,
+      "auc": 0.96294432
+    },
+    {
+      "bilstm_weight": 0.7250000000000001,
+      "classical_weight": 0.2749999999999999,
+      "auc": 0.9628134400000001
+    },
+    {
+      "bilstm_weight": 0.75,
+      "classical_weight": 0.25,
+      "auc": 0.96265104
+    },
+    {
+      "bilstm_weight": 0.775,
+      "classical_weight": 0.22499999999999998,
+      "auc": 0.9624468800000001
+    },
+    {
+      "bilstm_weight": 0.8,
+      "classical_weight": 0.19999999999999996,
+      "auc": 0.9622060800000001
+    },
+    {
+      "bilstm_weight": 0.8250000000000001,
+      "classical_weight": 0.17499999999999993,
+      "auc": 0.96190704
+    },
+    {
+      "bilstm_weight": 0.8500000000000001,
+      "classical_weight": 0.1499999999999999,
+      "auc": 0.9615552
+    },
+    {
+      "bilstm_weight": 0.875,
+      "classical_weight": 0.125,
+      "auc": 0.9611268799999999
+    },
+    {
+      "bilstm_weight": 0.9,
+      "classical_weight": 0.09999999999999998,
+      "auc": 0.96065632
+    },
+    {
+      "bilstm_weight": 0.925,
+      "classical_weight": 0.07499999999999996,
+      "auc": 0.9601424000000001
+    },
+    {
+      "bilstm_weight": 0.9500000000000001,
+      "classical_weight": 0.04999999999999993,
+      "auc": 0.9595216000000001
+    },
+    {
+      "bilstm_weight": 0.9750000000000001,
+      "classical_weight": 0.02499999999999991,
+      "auc": 0.9588489600000001
+    },
+    {
+      "bilstm_weight": 1.0,
+      "classical_weight": 0.0,
+      "auc": 0.9580545599999998
+    }
+  ]
+}

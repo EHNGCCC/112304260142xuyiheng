@@ -1,0 +1,18 @@
+{
+  "metric_priority": "roc_auc",
+  "cv_folds": 5,
+  "blend_oof_auc": 0.9730947968,
+  "weights": {
+    "word_clean": 0.35,
+    "word_soft": 0.1,
+    "nb_word": 0.35,
+    "nb_char": 0.2
+  },
+  "component_oof_auc": {
+    "word_clean": 0.967287,
+    "word_soft": 0.967303,
+    "nb_word": 0.966991,
+    "nb_char": 0.953171
+  },
+  "submission_path": "E:\\machining learning\\competition\\kaggle1\\formal\\submissions\\submission_cv_sparse_rank_blend_auc.csv"
+}

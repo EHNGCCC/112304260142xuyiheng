@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large local artifacts and caches
+artifacts/
+cache/
+*.model
+*.npy
+*.pkl
+
+# Raw datasets
+data/
+word2vec-nlp-tutorial/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# GitHub secrets
+.env
+*.pem
+*.key
+*.token
