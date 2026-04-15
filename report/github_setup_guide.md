@@ -12,11 +12,18 @@ kaggle-imdb-sentiment-formal
 Create an empty repository on GitHub first.
 
 ## 2. Configure Git on the Local Computer
-Run these commands in PowerShell and replace them with your own information:
+This repository has already been configured locally with:
+
+```text
+user.name  = EHNGCCC
+user.email = sutiyarsih@madrasah.kemenag.go.id
+```
+
+If you want to configure Git globally for future repositories, run:
 
 ```bash
-git config --global user.name "Your GitHub Name"
-git config --global user.email "your_email@example.com"
+git config --global user.name "EHNGCCC"
+git config --global user.email "sutiyarsih@madrasah.kemenag.go.id"
 ```
 
 Check the result:
@@ -44,13 +51,28 @@ Then copy its content and add it to GitHub:
 - `SSH and GPG keys`
 - `New SSH key`
 
+Current repository SSH remote:
+
+```text
+git@github.com:EHNGCCC/112304260142xuyiheng.git
+```
+
 After that, test the SSH connection:
 
 ```bash
 ssh -T git@github.com
 ```
 
-## 4. Initialize This Repository Locally
+## 4. Current Machine Status
+The following steps have already been completed on this computer:
+- local Git repository initialized
+- first commit created
+- remote `origin` bound to `git@github.com:EHNGCCC/112304260142xuyiheng.git`
+- GitHub host key added to `%USERPROFILE%\.ssh\known_hosts`
+
+If `git push` still reports `Permission denied (publickey)`, it means the public key in `%USERPROFILE%\.ssh\id_rsa.pub` has not been added to the GitHub account yet.
+
+## 5. Initialize This Repository Locally
 Open PowerShell in the repository root and run:
 
 ```bash
@@ -60,7 +82,7 @@ git add .
 git commit -m "Initialize Kaggle IMDB sentiment experiment repository"
 ```
 
-## 5. Link to GitHub and Push
+## 6. Link to GitHub and Push
 Replace the SSH URL with your real repository URL:
 
 ```bash
@@ -68,7 +90,7 @@ git remote add origin git@github.com:YOUR_USERNAME/YOUR_REPO.git
 git push -u origin main
 ```
 
-## 6. Update the Repository After Each Experiment
+## 7. Update the Repository After Each Experiment
 Every time you finish an experiment, update:
 - `code/`
 - `report/`
@@ -84,7 +106,7 @@ git push
 
 Write clear commit messages. Avoid messages like `update` or `test`.
 
-## 7. Recover a Better Old Version
+## 8. Recover a Better Old Version
 To view history:
 
 ```bash
