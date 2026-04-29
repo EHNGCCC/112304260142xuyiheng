@@ -1,3 +1,14 @@
+# Machine Learning Kaggle Projects
+
+This repository contains my machine learning coursework projects prepared for GitHub tracking and deployment.
+
+## Projects
+
+- `code/`, `report/`, `results/`: IMDB sentiment classification for Kaggle `Bag of Words Meets Bags of Popcorn`.
+- `digit-recognizer-cnn/`: CNN handwritten digit recognition for Kaggle `Digit Recognizer`, including a Flask web app and Render deployment config.
+
+---
+
 # IMDB Sentiment Classification for Kaggle
 
 ## Project Overview

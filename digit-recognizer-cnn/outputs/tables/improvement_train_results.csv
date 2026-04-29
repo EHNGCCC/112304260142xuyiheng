@@ -1,0 +1,3 @@
+name,model_path,best_epoch,best_val_acc,best_val_loss
+seed2024,E:\machining learning\competition\kaggle2\digit-recognizer\models\ensemble_seed2024.pt,34,0.9971428571428571,0.30635504705565314
+seed3407,E:\machining learning\competition\kaggle2\digit-recognizer\models\ensemble_seed3407.pt,18,0.9964285714285714,0.3117964466412862

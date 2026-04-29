@@ -28,6 +28,11 @@ cache/
 data/
 word2vec-nlp-tutorial/
 
+# Keep Kaggle2 data instructions, but not raw CSV files
+!digit-recognizer-cnn/data/
+!digit-recognizer-cnn/data/README.md
+digit-recognizer-cnn/data/*.csv
+
 # Notebook checkpoints
 .ipynb_checkpoints/
 

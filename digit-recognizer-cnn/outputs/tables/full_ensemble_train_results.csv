@@ -1,0 +1,4 @@
+seed,model_path,epochs,final_train_loss,final_train_acc
+42,E:\machining learning\competition\kaggle2\digit-recognizer\models\full_ensemble_seed42.pt,36,0.3406863856656211,0.9937619047619047
+2024,E:\machining learning\competition\kaggle2\digit-recognizer\models\full_ensemble_seed2024.pt,36,0.3552214028040568,0.9923095238095239
+3407,E:\machining learning\competition\kaggle2\digit-recognizer\models\full_ensemble_seed3407.pt,36,0.34128711571012227,0.993
