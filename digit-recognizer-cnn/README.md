@@ -59,11 +59,13 @@ Stop-Process -Id <PID> -Force
 
 ## Render 部署
 
-本仓库已经包含 `render.yaml`，可以直接在 Render 中通过 Blueprint 或 Web Service 部署。
+由于 GitHub 仓库根目录同时包含多个项目，推荐在 Render 中手动创建 Web Service，并把 Root Directory 设置为 `digit-recognizer-cnn`。
 
 推荐设置：
 
 ```text
+Service Type: Web Service
+Root Directory: digit-recognizer-cnn
 Build Command: pip install -r requirements.txt
 Start Command: gunicorn --chdir app app:app
 Python Version: 3.12.10
@@ -73,7 +75,7 @@ Python Version: 3.12.10
 
 - GitHub 仓库中保留 `models/final_cnn.pt`，用于 Web 应用在线预测。
 - Kaggle 原始 `train.csv` / `test.csv` 不上传 GitHub，需要本地训练时自行放入 `data/`。
-- Render 上只运行 Web 应用，不重新训练模型。
+- Render 上只运行 Web 应用，不重新训练模型；依赖文件使用 CPU 版 PyTorch，适合 Render 免费实例部署。
 
 ## 关键结果
 
